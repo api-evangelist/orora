@@ -1,0 +1,105 @@
+generated: '2026-10-22'
+method: searched
+source:
+- https://www.ororagroup.com/about/privacy-policy
+policy_last_updated: '2026-01-29'
+policy_last_updated_evidence:
+  source: https://www.ororagroup.com/about/privacy-policy
+  http_status: 200
+  fetched: '2026-10-22'
+  quote: 'Effective and last updated date: January 29, 2026'
+signals:
+  data_subject_request:
+    url: https://www.ororagroup.com/about/privacy-policy
+    section: 9. What are your rights?
+    rights_named:
+    - informed
+    - access
+    - rectification
+    - portability
+    - erasure
+    - object
+    - withdraw consent
+    - automated decision-making
+    - complaint
+    evidence:
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'Right to be forgotten: right to request the deletion of your personal data, in some circumstances.'
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: 'Right to access and rectification: right to access, change or correct your personal data.'
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: To exercise your privacy rights, please contact Orora’s Privacy Officer as described in the “How to
+        contact us” section below.
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: Please contact us at +61 3 9811 7111 or at privacy@ororagroup.com if you have any questions or would
+        like to exercise your privacy rights.
+    note: Lists jurisdiction-dependent rights (access, rectification, erasure, portability, objection, automated
+      decision-making). Requests go by email/phone/post to the Privacy Officer (or Saverglass DPO); no self-service
+      portal and no response deadline are stated.
+  data_residency:
+    url: https://www.ororagroup.com/about/privacy-policy
+    section: 6. Do we transfer your data internationally?
+    evidence:
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We may transfer, access, or store personal data about you outside of your country of residence. This
+        may include but is not limited to, transferring, accessing, or storing personal data about you outside the
+        European Economic Area, United Kingdom, United States, Switzerland, Australia, New Zealand or Mexico.
+    note: 'No residency commitment: the policy reserves cross-border transfer, relying on adequacy and other transfer
+      mechanisms "to the extent required by applicable law".'
+  data_retention:
+    url: https://www.ororagroup.com/about/privacy-policy
+    section: 7. How long do we retain your personal data?
+    evidence:
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We will keep your personal data for as long as we provide solutions to you, as long as you work for
+        or with us, or as long as we are addressing a concern, question, complaint, or request you have made to
+        us, as applicable to our interactions with you.
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If we no longer need the personal data we collect for any purpose and we are not permitted by law to
+        keep it, we will do what we can to delete, destroy or permanently remove any personal data that could be
+        used to personally identify you.
+    note: Retention is tied to the relationship plus legal/record-keeping obligations. No fixed retention periods
+      are published.
+  age_assurance:
+    url: https://www.ororagroup.com/about/privacy-policy
+    section: 10. Do we collect children’s data?
+    evidence:
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We do not knowingly collect personal data about children or sell products to children.
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: If we discover that we have collected personal data from a child, we will delete that data as soon
+        as we are able.
+    note: 'A children''s-data disclaimer, not an age-assurance mechanism: no age verification or age gating is described.'
+  accessibility_conformance:
+    url: https://www.ororagroup.com/about/privacy-policy
+    section: 15. Accessibility
+    evidence:
+    - source: https://www.ororagroup.com/about/privacy-policy
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: We are committed to ensuring this Privacy Policy is accessible to individuals with disabilities. If
+        you wish to access this Privacy Policy in an alternative format, please contact us as described below.
+    note: Covers only the privacy policy (alternative formats on request). No WCAG or other conformance level is
+      claimed.
+not_found: The privacy policy does not speak to subprocessor lists, incident/breach notification, Global Privacy
+  Control, AI transparency, exit assistance, SBOM or transparency reports. Terms of Use (https://www.ororagroup.com/about/terms-of-use,
+  HTTP 200) was also fetched. Orora is a beverage packaging manufacturer with no public API; this posture describes
+  its corporate website and business data handling.

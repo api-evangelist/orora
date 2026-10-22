@@ -1,23 +1,102 @@
 aid: orora
+
 name: Orora
-description: 'Orora is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Orora (Orora Group Limited, ASX: ORA) is an Australian-listed packaging company that describes itself as the
+  global leader in sustainable glass and aluminium packaging, partnering with major drinks brands. Its roughly 4,500-person
+  team runs 17 sites across Australia, North America, Europe and the UAE, covering design, manufacturing and decoration of
+  glass bottles and aluminium beverage cans. Orora does not publish a public developer portal or API; this profile was surfaced
+  from the australia-apidays-2026 harvest.'
+
 url: https://raw.githubusercontent.com/api-evangelist/orora/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Packaging
+- Manufacturing
+- Glass
+- Aluminium Cans
+- Beverage
+- Sustainability
+- Australia
+- ASX Listed
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.ororagroup.com/images/fb-default.jpg
+
 common:
+- type: Hosts
+  url: hosts/orora-hosts.yml
+- type: DomainSecurity
+  url: security/orora-domain-security.yml
 - type: Website
-  url: https://ororagroup.com/
+  url: https://www.ororagroup.com/
+- type: About
+  url: https://www.ororagroup.com/about
+- type: Newsroom
+  url: https://www.ororagroup.com/news
+- type: Contact
+  url: https://www.ororagroup.com/contact-us
+- type: Careers
+  url: https://www.ororagroup.com/careers
+- type: Investors
+  url: https://www.ororagroup.com/investors
+- type: TermsOfService
+  url: https://www.ororagroup.com/about/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.ororagroup.com/about/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/orora-group-limited
+- type: YouTube
+  url: https://www.youtube.com/channel/UCM1WN6Ro-cwHb46rZpg4IPA
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Website ororagroup.com self-identifies as Orora (title, ASX ORA link, about page). No developer portal, API docs,
+    GitHub org, pricing or sign-up found on the site; corporate pointers only.
+  evidence:
+  - url: https://www.ororagroup.com/
+    status: 200
+  - url: https://www.ororagroup.com/about
+    status: 200
+  - url: https://www.ororagroup.com/news
+    status: 200
+  - url: https://www.ororagroup.com/contact-us
+    status: 200
+  - url: https://www.ororagroup.com/careers
+    status: 200
+  - url: https://www.ororagroup.com/investors
+    status: 200
+  - url: https://www.ororagroup.com/about/terms-of-use
+    status: 200
+  - url: https://www.ororagroup.com/about/privacy-policy
+    status: 200
+  - url: https://www.ororagroup.com/images/fb-default.jpg
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

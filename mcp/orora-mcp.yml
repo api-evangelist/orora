@@ -1,0 +1,19 @@
+type: MCPServer
+name: Orora MCP Server
+generated: '2026-10-22'
+method: none
+status: none
+note: >-
+  Checked, nothing there. Orora (packaging manufacturer, ASX: ORA) publishes no MCP server,
+  no OpenAPI contract and no developer portal, so no candidate tool list can be derived.
+  https://www.ororagroup.com/.well-known/mcp.json returned HTTP 403 (2026-10-22); pre-flight
+  contract discovery on ororagroup.com / www.ororagroup.com / api.ororagroup.com found mcp absent;
+  a web search for an Orora MCP server returned only unrelated products (Oracle, Oro, ora.ai).
+checked:
+- url: https://www.ororagroup.com/.well-known/mcp.json
+  status: 403
+tools: []
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched

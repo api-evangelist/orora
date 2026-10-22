@@ -1,0 +1,21 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/orora/integrations
+- https://n8n.io/integrations/orora/
+- https://composio.dev/toolkits/orora
+- https://monid.ai/tools/orora
+checked:
+- https://www.ororagroup.com/
+- https://zapier.com/apps/orora/integrations
+- https://n8n.io/integrations/orora
+- https://www.make.com/en/integrations/orora
+- https://api.github.com/search/repositories?q=orora+packaging
+- https://composio.dev/toolkits/orora
+- https://monid.ai/tools/orora
+- https://n8n.io/integrations/orora/
+summary: Orora is a glass and aluminium packaging manufacturer with no public API, developer portal or app-marketplace
+  listing. No integration edges were found anywhere we looked.
+marketplace_apps: []
+edges: []
+templates: []
